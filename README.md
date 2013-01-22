@@ -20,12 +20,12 @@ There are a few ways to add `MTManagedDocument` to your project.
 Copy all the files in the `MTManagedDocument` directory into your project and be sure 'Copy items to destination group's folder' is checked
 
 **Option 3:**
-You can also get the code via CocoaPods
+You can also install the code via CocoaPods using the podspec file include with this project
 
 ## Use
 
 1. Import the header using `#import "MTManagedDocument.h"`
-2. Create an instance of `MTManagedDocument` using the initWithFileURL:andManagedObjectName: method
+2. Create an instance of `MTManagedDocument` using the `initWithFileURL:andManagedObjectName:` method
 3. Use the use the instance just as you would a UIManagedDocument 
 
 ####Initialization and presentation
