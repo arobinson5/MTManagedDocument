@@ -25,9 +25,9 @@ You can also install the code via CocoaPods using the podspec file include with 
 ## Use
 
 1. Import the header using `#import "MTManagedDocument.h"`
-2. Create an instance of `MTManagedDocument` using the `initWithFileURL:andManagedObjectName:` method
+2. Create an instance of `MTManagedDocument` using the `initWithFileURL:andManagedObjectModelName:` method
 3. Use the use the instance just as you would a UIManagedDocument 
 
 ####Initialization and presentation
 ```` objective-c
-MTManagedDocument *managedDocument = [[MTManagedDocument alloc] initWithFileURL:fileURL andManagedObjectName:@"<name of your managed object model here>"];
+MTManagedDocument *managedDocument = [[MTManagedDocument alloc] initWithFileURL:fileURL andManagedObjectModelName:@"<name of your managed object model here>"];
