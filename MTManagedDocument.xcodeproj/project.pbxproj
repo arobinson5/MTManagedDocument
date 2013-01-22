@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD043BD16AF209C004CDFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD043BC16AF209C004CDFE3 /* Foundation.framework */; };
+		8CD043C216AF209C004CDFE3 /* MTManagedDocument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CD043C116AF209C004CDFE3 /* MTManagedDocument.h */; };
+		8CD043C416AF209C004CDFE3 /* MTManagedDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD043C316AF209C004CDFE3 /* MTManagedDocument.m */; };
+		8CD043CE16AF2120004CDFE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD043CD16AF211F004CDFE3 /* UIKit.framework */; };
+		8CD043D116AF246E004CDFE3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD043D016AF246E004CDFE3 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CD043B716AF209C004CDFE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				8CD043C216AF209C004CDFE3 /* MTManagedDocument.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8CD043B916AF209C004CDFE3 /* libMTManagedDocument.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTManagedDocument.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD043BC16AF209C004CDFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CD043C016AF209C004CDFE3 /* MTManagedDocument-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTManagedDocument-Prefix.pch"; sourceTree = "<group>"; };
+		8CD043C116AF209C004CDFE3 /* MTManagedDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTManagedDocument.h; sourceTree = "<group>"; };
+		8CD043C316AF209C004CDFE3 /* MTManagedDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTManagedDocument.m; sourceTree = "<group>"; };
+		8CD043CD16AF211F004CDFE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CD043D016AF246E004CDFE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD043B616AF209C004CDFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD043D116AF246E004CDFE3 /* CoreData.framework in Frameworks */,
+				8CD043CE16AF2120004CDFE3 /* UIKit.framework in Frameworks */,
+				8CD043BD16AF209C004CDFE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD043AE16AF209C004CDFE3 = {
+			isa = PBXGroup;
+			children = (
+				8CD043BE16AF209C004CDFE3 /* MTManagedDocument */,
+				8CD043BB16AF209C004CDFE3 /* Frameworks */,
+				8CD043BA16AF209C004CDFE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD043BA16AF209C004CDFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD043B916AF209C004CDFE3 /* libMTManagedDocument.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD043BB16AF209C004CDFE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CD043D016AF246E004CDFE3 /* CoreData.framework */,
+				8CD043CD16AF211F004CDFE3 /* UIKit.framework */,
+				8CD043BC16AF209C004CDFE3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CD043BE16AF209C004CDFE3 /* MTManagedDocument */ = {
+			isa = PBXGroup;
+			children = (
+				8CD043C116AF209C004CDFE3 /* MTManagedDocument.h */,
+				8CD043C316AF209C004CDFE3 /* MTManagedDocument.m */,
+				8CD043BF16AF209C004CDFE3 /* Supporting Files */,
+			);
+			path = MTManagedDocument;
+			sourceTree = "<group>";
+		};
+		8CD043BF16AF209C004CDFE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD043C016AF209C004CDFE3 /* MTManagedDocument-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD043B816AF209C004CDFE3 /* MTManagedDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD043C716AF209C004CDFE3 /* Build configuration list for PBXNativeTarget "MTManagedDocument" */;
+			buildPhases = (
+				8CD043B516AF209C004CDFE3 /* Sources */,
+				8CD043B616AF209C004CDFE3 /* Frameworks */,
+				8CD043B716AF209C004CDFE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTManagedDocument;
+			productName = MTManagedDocument;
+			productReference = 8CD043B916AF209C004CDFE3 /* libMTManagedDocument.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD043B016AF209C004CDFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alec Robinson";
+			};
+			buildConfigurationList = 8CD043B316AF209C004CDFE3 /* Build configuration list for PBXProject "MTManagedDocument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CD043AE16AF209C004CDFE3;
+			productRefGroup = 8CD043BA16AF209C004CDFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD043B816AF209C004CDFE3 /* MTManagedDocument */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD043B516AF209C004CDFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD043C416AF209C004CDFE3 /* MTManagedDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CD043C516AF209C004CDFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CD043C616AF209C004CDFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD043C816AF209C004CDFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTManagedDocument.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTManagedDocument/MTManagedDocument-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8CD043C916AF209C004CDFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTManagedDocument.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTManagedDocument/MTManagedDocument-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD043B316AF209C004CDFE3 /* Build configuration list for PBXProject "MTManagedDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD043C516AF209C004CDFE3 /* Debug */,
+				8CD043C616AF209C004CDFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD043C716AF209C004CDFE3 /* Build configuration list for PBXNativeTarget "MTManagedDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD043C816AF209C004CDFE3 /* Debug */,
+				8CD043C916AF209C004CDFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD043B016AF209C004CDFE3 /* Project object */;
+}
